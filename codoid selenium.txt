@@ -13,6 +13,8 @@ driver.save_screenshot("screenshot.png")
 # close the browser window
 driver.quit()
 
+------------------------------------------------------------------------------------------------------------------------
+
 2)Write code for positive and negative scenarios for Alerts
 
 from selenium import webdriver
@@ -36,6 +38,7 @@ alert = Alert(driver)
 # get the text of the alert message
 alert_text = aler
 
+-----------------------------------------------------------------------------------------------------------------------
 6)Select multiple options from the dropdown
 
 from selenium import webdriver

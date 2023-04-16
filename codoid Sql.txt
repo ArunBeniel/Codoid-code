@@ -1,6 +1,7 @@
 3.Write a SQL query to Rename the column name.
 ALTER TABLE my_table RENAME COLUMN old_column_name TO new_column_name;
 
+-----------------------------------------------------------------------------------------------------------------
 
 4.Write a SQL query to find duplicate records
 SELECT column1, column2, COUNT(*) as count
@@ -8,6 +9,7 @@ FROM my_table
 GROUP BY column1, column2
 HAVING COUNT(*) > 1;
 
+----------------------------------------------------------------------------------------------------------------
 
 5.How do we use the DISTINCT statement? What are its use?
 SELECT DISTINCT column_name

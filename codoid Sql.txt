@@ -1,0 +1,20 @@
+3.Write a SQL query to Rename the column name.
+ALTER TABLE my_table RENAME COLUMN old_column_name TO new_column_name;
+
+
+4.Write a SQL query to find duplicate records
+SELECT column1, column2, COUNT(*) as count
+FROM my_table
+GROUP BY column1, column2
+HAVING COUNT(*) > 1;
+
+
+5.How do we use the DISTINCT statement? What are its use?
+SELECT DISTINCT column_name
+FROM table_name;
+
+The DISTINCT statement is useful when you want to remove duplicates from your query results. For example, if you have a table of customer orders and you want to know how many unique customers have placed orders, you can use the DISTINCT statement to retrieve only the unique customer IDs.
+
+One thing to keep in mind is that the DISTINCT statement can impact performance if used on large datasets or complex queries. It requires the database to perform additional processing to remove duplicates, which can slow down the query. As a best practice, you should only use DISTINCT when necessary and avoid using it unnecessarily.
+
+

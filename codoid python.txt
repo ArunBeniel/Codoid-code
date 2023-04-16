@@ -17,6 +17,8 @@ Enter the number of terms: 10
 The Fibonacci series of 10 terms is:
 [0, 1, 1, 2, 3, 5, 8, 13, 21, 34]
 
+-------------------------------------------------------------------------------------------------------------------------
+
 9)Implement a program to merge two Arrays
 
 array1 = [1, 3, 5, 7, 9]
@@ -27,6 +29,8 @@ print(merged_array)
 
 output:
 [1, 3, 5, 7, 9, 2, 4, 6, 8, 10]
+
+--------------------------------------------------------------------------------------------------------------------------
 
 23)swap two numbers without using temporary variable
 
